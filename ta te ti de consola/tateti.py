@@ -43,32 +43,7 @@ def jugada(entrada, ficha, bandera):
     if entrada == "0":
         return not bandera
 
-#verificadores de jugada
-# def verificacion(matriz, ficha):
-#     if matriz[0][0] == ficha and matriz[1][1] == ficha and matriz[2][2] == ficha:
-#         print("GANADOR : "+ficha)
-#         return not bandera
-#     if matriz[0][2] == ficha and matriz[1][1] == ficha and matriz[2][0] == ficha:
-#         print("GANADOR : "+ficha)
-#         return not bandera
-#     if matriz[0][0] == ficha and matriz[1][0] == ficha and matriz[2][0] == ficha:
-#         print("GANADOR : "+ficha)
-#         return not bandera
-#     if matriz[0][1] == ficha and matriz[1][1] == ficha and matriz[2][1] == ficha:
-#         print("GANADOR : "+ficha)
-#         return not bandera
-#     if matriz[0][2] == ficha and matriz[1][2] == ficha and matriz[2][2] == ficha:
-#         print("GANADOR : "+ficha)
-#         return not bandera
-#     if matriz[0][0] == ficha and matriz[0][1] == ficha and matriz[0][2] == ficha:
-#         print("GANADOR : "+ficha)
-#         return not bandera
-#     if matriz[1][0] == ficha and matriz[1][1] == ficha and matriz[1][2] == ficha:
-#         print("GANADOR : "+ficha)
-#         return not bandera
-#     if matriz[2][0] == ficha and matriz[2][1] == ficha and matriz[2][2] == ficha:
-#         print("GANADOR : "+ficha)
-#         return not bandera
+
 
 def verificacion2(matriz, ficha):
 # [00][01][02]  
